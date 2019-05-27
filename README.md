@@ -4,7 +4,7 @@
 Jennifer Herrera Montoya
 
 # Control de Versiones
-_• v1.0.0 -
+• v1.0.0 -
 ```
  
 ```
