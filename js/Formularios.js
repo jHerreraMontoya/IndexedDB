@@ -1077,7 +1077,9 @@ function formCreateCategory() {
 
             //Añadir nueva categoría a la base de datos
             addData("Categories", nuevaCategory);
+            addDataAssign("AsignarCategories", { category: nuevaCategory.name, Productions: [] });
 
+            
             /*Limpio los nodos hijos del submenu categorias que se vuelva a pintar
             con la categoría añadida*/
 
